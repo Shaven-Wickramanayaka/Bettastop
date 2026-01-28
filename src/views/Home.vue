@@ -1,4 +1,5 @@
 <script>
+import About from "../components/About.vue";
 import Hero from "../components/Hero.vue";
 import Navbar from "../components/Navbar.vue";
 
@@ -7,6 +8,7 @@ export default {
   components: {
     Navbar,
     Hero,
+    About,
   },
 };
 </script>
@@ -14,4 +16,5 @@ export default {
 <template>
   <Navbar></Navbar>
   <Hero></Hero>
+  <About></About>
 </template>

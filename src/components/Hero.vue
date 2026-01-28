@@ -38,7 +38,11 @@ onMounted(() => {
 
 <template>
   <section class="flex gap-7 justify-center w-full overflow-hidden h-screen">
-    <h1 class="absolute">BettaStop</h1>
+    <h1
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 mix-blend-difference text-white font-extrabold text-9xl"
+    >
+      BettaStop
+    </h1>
     <div
       v-for="(imgs, index) in images"
       :key="index"
