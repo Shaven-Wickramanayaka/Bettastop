@@ -9,7 +9,9 @@
         <a class="px-2 text-white decoration-0" href="">Shrimp</a>
         <a class="px-2 text-white decoration-0" href="">Equipment</a>
       </div>
-      <div class="flex-1 px-2 text-end">Cart</div>
+      <div class="flex-1 px-2 text-end">
+        <font-awesome-icon icon="cart-shopping" />
+      </div>
     </div>
   </nav>
 </template>
