@@ -10,9 +10,26 @@
       <ul
         class="flex flex-col py-5 font-[Raleway] justify-start text-2xl text-center"
       >
-        <li class="p-1">Instagram</li>
-        <li class="p-1">Facebook</li>
-        <li class="p-1">Twitter</li>
+        <li class="p-1">
+          <a
+            href="http://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram</a
+          >
+        </li>
+        <li class="p-1">
+          <a
+            href="http://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li class="p-1">
+          <a href="http://x.com" target="_blank" rel="noopener noreferrer">X</a>
+        </li>
       </ul>
     </div>
     <div class="flex-3"></div>
@@ -24,9 +41,9 @@
       <ul
         class="flex flex-col py-5 font-[Raleway] justify-start text-2xl text-center"
       >
-        <li class="p-1">Home</li>
-        <li class="p-1">Shop</li>
-        <li class="p-1">404</li>
+        <li class="p-1"><a href="/">Home</a></li>
+        <li class="p-1"><a href="/shop">Shop</a></li>
+        <li class="p-1">(～￣▽￣)～</li>
       </ul>
     </div>
   </footer>
